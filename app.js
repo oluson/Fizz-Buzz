@@ -1,5 +1,5 @@
 
-var fizz_Buzz = function() {
+var fizzBuzz = function() {
   for (var i = 1; i <= 100; i++) {
     var Result;
      if ((i%3===0) && (i%5===0)){
@@ -18,4 +18,4 @@ var fizz_Buzz = function() {
       console.log(Result);
   }
 };
-fizz_Buzz();
+fizzBuzz();
